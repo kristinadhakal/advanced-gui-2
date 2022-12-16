@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 600px;
   margin: auto;
@@ -16,4 +20,23 @@ body {
 
 .completed {
   text-decoration: line-through;
+}
+#task-input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+button {
+  float: right;
+  background-color: #ffc9de;
+  color: grey;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
 }
